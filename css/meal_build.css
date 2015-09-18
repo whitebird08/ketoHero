@@ -1,29 +1,58 @@
+body{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+.parent_wrapper{
+
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  width:400px;
+  height:650;
+
+}
 h1{
   font-family: helvetica;
   font-weight: bold;
   font-size: 64px;
   font-style: italic;
   color:skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 /*//375 x 627px*/
 .header{
-  height: 80px;
+  width:400px ;
+  height: 50px;
   border:1px solid lavender;
   background-color: lavender;
   align-content:stretch;
  font-family: helvetica;
-  font-size: 52px;
+  font-size: 36px;
   color:skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:row;
 }
 .container{
  display:flex;
  flex-direction:column;
-  width:170px;
+  width:400px;
   height: 50px;
   flex-wrap:wrap;
   text-align:center;
   font-family: helvetica;
+ /* display: flex;
+  justify-content:center;
+  align-items:center;
+*/
 }
 .percent_wrapper{
 
@@ -74,7 +103,6 @@ h1{
   display: flex;
   justify-content: center;
   align-items: center;
-  align-items: center;
 }
 .fatP_wrapper{
   float:left;
@@ -91,6 +119,9 @@ h1{
   background-color:yellow;
   border:0px solid goldenrod;
   order:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .fatP{
@@ -146,7 +177,7 @@ h1{
 .amount_food{
   height:50px;
   width:100px;
-  background-color:lavender;
+  background-color:blue;
   border: 0px solid red;
   order:2;display: flex;
   justify-content: center;
@@ -163,6 +194,15 @@ h1{
   justify-content: center;
   align-items: center;
 }
+.grams_wrapper{
+
+  height:50px;
+  width:150px;
+  background-color: orange;
+  border:0px solid red;
+  order:0;
+}
+
 .adjust_qty_higher{
   float: left;
   height:50px;
