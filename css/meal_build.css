@@ -18,148 +18,214 @@ h1{
 }
 .container{
  display:flex;
- flex-direction:row;
+ flex-direction:column;
   width:170px;
   height: 50px;
   flex-wrap:wrap;
+  text-align:center;
+  font-family: helvetica;
+  
+
+
 }
+.percent_wrapper{
 
-
-/*.percent_wrapper{
   height:50px;
-  width:160px;
+  width:150px;
   background-color: orange;
-  border:2px solid red;
-
-}*/
+  border:0px solid red;
+  order:0;
+}
 .adjust_qty_lower{
   height:50px;
-  width:160px;
-  border:2px solid grey;
+  width:150px;
+  border:0px solid grey;
   background-color: black;
   color:white;
   order:0;
 }
-/*.proP_wrapper{
+.proP_wrapper{
+  float:left;
   height:100px;
   width:50px;
   background-color:orange
-  border:2px solid red;
-}*/
+  border:0px solid red;
+  order:0;
+}
 .quantityPercentPro{
+  float:left;
   height:25px;
   width:50px;
   background-color:yellow;
-  border:2px solid goldenrod;
+  border:0px solid goldenrod;
   order:0;
+
 }
 
 .proP{
+  float:left;
   height: 25px;
   width: 50px;
   background-color: limegreen;
-  border: 2px solid green;
+  border: 0px solid green;
   order:1;
 }
+.fatP_wrapper{
+  float:left;
+  height:100px;
+  width:50px;
+  background-color:orange
+  border:0px solid red;
+  order:0;
+}
 .quantityPercentFat{
+  float:left;
   height:25px;
   width:50px;
   background-color:yellow;
-  border:2px solid goldenrod;
+  border:0px solid goldenrod;
   order:0;
 }
 
 .fatP{
+  float:left;
   height: 25px;
   width:50px;
   background-color: skyblue;
-  border: 2px solid blue;
+  border: 0px solid blue;
   order:1;
 }
+.carbP_wrapper{
+  float:left;
+  height:100px;
+  width:50px;
+  background-color:orange
+  border:0px solid red;
+  order:0;
+}
 .quantityPercentCho{
+  float:left;
   height:25px;
   width:50px;
   background-color:yellow;
-  border:2px solid goldenrod;
-  order:;
+  border:0px solid goldenrod;
+  order:0;
 }
 .carbP{
+  float:left;
   height: 25px;
   width:50px;
   background-color: magenta;
-  border: 2px solid purple;
+  border:0px solid purple;
   order:1;
 }
 
+.amount_name_food_wrapper{
+  height:100px;
+  width:100px;
+  background-color:lavender;
+  border: 0px solid red;
+  order:2;
+}
 .amount_food{
   height:50px;
-  width:120px;
+  width:100px;
   background-color:lavender;
-  border: 2px solid red;
+  border: 0px solid red;
   order:2;
 }
 
 .name_food{
   height:50px;
-  width:120px;
+  width:100px;
   background-color:purple;
-  border: 2px solid red;
+  border: 0px solid red;
   order:2;
 }
 .adjust_qty_higher{
+  float: left;
   height:50px;
-  width:165px;
-  border:2px solid grey;
+  width:150px;
+  border:0px solid grey;
   background-color: black;
   color:white;
   order:3;
 }
 
-
+.proG_wrapper{
+  float:left;
+  height:100px;
+  width:50px;
+  background-color:orange
+  border:0px solid red;
+  order:3;
+}
 .quantityGramsPro{
+  float:left;
   height:25px;
   width:50px;
   background-color:yellow;
-  border:2px solid goldenrod;
+  border:0px solid goldenrod;
   order:3;
 }
 
 .proG{
+  float:left;
   height: 25px;
   width: 50px;
   background-color: limegreen;
-  border: 2px solid green;
+  border: 0px solid green;
   order:4;
 
 }
+.fatG_wrapper{
+  float:left;
+  height:100px;
+  width:50px;
+  background-color:orange
+  border:0px solid red;
+  order:3;
+}
 .quantityGramsFat{
+  float:left;
   height:25px;
   width:50px;
   background-color:yellow;
-  border:2px solid goldenrod;
+  border:0px solid goldenrod;
   order:3;
 }
 
 .fatG{
+  float:left;
   height: 25px;
   width:50px;
   background-color: skyblue;
-  border: 2px solid blue;
+  border:0px solid blue;
   order:4;
 }
+.carbG_wrapper{
+  float:left;
+  height:100px;
+  width:50px;
+  background-color:orange
+  border:0px solid red;
+  order:3;
+}
 .quantityGramsCho{
+  float:left;
   height:25px;
   width:50px;
   background-color:yellow;
-  border:2px solid goldenrod;
+  border:0px solid goldenrod;
   order:3;
 }
 .carbG{
+  float:left;
   height: 25px;
   width:50px;
   background-color: magenta;
-  border: 2px solid purple;
-  order:  4;
+  border: 0px solid purple;
+  order:4;
 }
 
 
