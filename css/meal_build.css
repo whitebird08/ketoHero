@@ -1,3 +1,12 @@
+/*.dark-primary-color    { background: #0288D1; }
+.default-primary-color { background: #03A9F4; }
+.light-primary-color   { background: #B3E5FC; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #536DFE; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #727272; }
+.divider-color         { border-color: #B6B6B6; }
+*/
 body{
   display:flex;
   flex-direction:column;
@@ -15,12 +24,13 @@ body{
 
 }*/
 
+
 h1{
   font-family: helvetica;
   font-weight: bold;
   font-size: 64px;
   font-style: italic;
-  color:skyblue;
+  color:#536DFE;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,12 +41,12 @@ h1{
 .header{
   width:400px ;
   height: 50px;
-  border:1px solid lavender;
-  background-color: lavender;
+  border:1px solid #03A9FA;
+  background-color: #03A9FA;
   align-content:stretch;
  font-family: helvetica;
   font-size: 36px;
-  color:skyblue;
+  color#03A9FA;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,6 +71,7 @@ h1{
   height:50px;
   width:150px;
   background-color: orange;
+  color:#536DFE;
   border:0px solid red;
   order:0;
 }
@@ -89,7 +100,7 @@ h1{
   float:left;
   height:25px;
   width:50px;
-  background-color:yellow;
+  background-color:cyan;
   /*color: white;*/
   border:0px solid goldenrod;
   order:0;
@@ -102,9 +113,9 @@ h1{
   float:left;
   height: 25px;
   width: 50px;
-  background-color: limegreen;
+  background-color: #03A9FA;
   border: 0px solid green;
-  color:yellow;
+  color:cyan;
   order:1;
   display: flex;
   justify-content: center;
@@ -122,7 +133,7 @@ h1{
   float:left;
   height:25px;
   width:50px;
-  background-color:yellow;
+  background-color:cyan;
   border:0px solid goldenrod;
   order:0;
   display: flex;
@@ -134,8 +145,9 @@ h1{
   float:left;
   height: 25px;
   width:50px;
-  background-color: skyblue;
-  border: 0px solid blue;
+  background-color:#03A9FA;
+  border: 0px solid #B3E5FC;
+  color:cyan;
   order:1;
   display: flex;
   justify-content: center;
@@ -153,7 +165,7 @@ h1{
   float:left;
   height:25px;
   width:50px;
-  background-color:yellow;
+  background-color:cyan;
   border:0px solid goldenrod;
   order:0;
   display: flex;
@@ -164,8 +176,9 @@ h1{
   float:left;
   height: 25px;
   width:50px;
-  background-color: magenta;
-  border:0px solid purple;
+  background-color: #03A9FA;
+  border:0px solid ;
+  color:cyan;
   order:1;
   display: flex;
   justify-content: center;
@@ -175,7 +188,7 @@ h1{
 .amount_name_food_wrapper{
   height:100px;
   width:100px;
-  background-color:lavender;
+  background-color:#03A9FA;
   border: 0px solid red;
   order:2;
 
@@ -183,7 +196,8 @@ h1{
 .amount_food{
   height:50px;
   width:100px;
-  background-color:blue;
+  background-color:#536DFE;
+  color:cyan;
   border: 0px solid red;
   order:2;display: flex;
   justify-content: center;
@@ -193,8 +207,9 @@ h1{
 .name_food{
   height:50px;
   width:100px;
-  background-color:purple;
+  background-color:#03A9FA;
   border: 0px solid red;
+  color:cyan;
   order:2;
   display: flex;
   justify-content: center;
@@ -205,6 +220,7 @@ h1{
   height:50px;
   width:150px;
   background-color: orange;
+  color:#536DFE;
   border:0px solid red;
   order:0;
 }
@@ -236,7 +252,7 @@ h1{
   float:left;
   height:25px;
   width:50px;
-  background-color:yellow;
+  background-color:cyan;
   border:0px solid goldenrod;
   order:3;
   display: flex;
@@ -248,8 +264,9 @@ h1{
   float:left;
   height: 25px;
   width: 50px;
-  background-color: limegreen;
+  background-color: #03A9FA;
   border: 0px solid green;
+  color: cyan;
   order:4;
   display: flex;
   justify-content: center;
@@ -267,7 +284,7 @@ h1{
   float:left;
   height:25px;
   width:50px;
-  background-color:yellow;
+  background-color:cyan;
   border:0px solid goldenrod;
   order:3;
   display: flex;
@@ -279,8 +296,9 @@ h1{
   float:left;
   height: 25px;
   width:50px;
-  background-color: skyblue;
-  border:0px solid blue;
+  background-color:#03A9FA;
+  border:0px solid #B3E5FC;
+  color:cyan;
   order:4;
   display: flex;
   justify-content: center;
@@ -298,7 +316,7 @@ h1{
   float:left;
   height:25px;
   width:50px;
-  background-color:yellow;
+  background-color:cyan;
   border:0px solid goldenrod;
   order:3;
   display: flex;
@@ -309,8 +327,9 @@ h1{
   float:left;
   height: 25px;
   width:50px;
-  background-color: magenta;
-  border: 0px solid purple;
+  background-color: #03A9FA;
+  border: 0px solid #03A9FA;
+  color:cyan;
   order:4;
   display: flex;
   justify-content: center;
